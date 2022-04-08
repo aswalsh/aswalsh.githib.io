@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="./style.css" type="text/css" rel="stylesheet">
+        <title>
+            Andrew Walsh's Portfolio
+        </title>
+    </head>
+    <body>
+        <main>
+        <header>
+            <nav class="topnav"  id="portfolioTopnav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#accomplishments">Accomplishments</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()" ><i class="fa fa-bars"></i></a>
+            </nav>
+        </header>
+        <header>
+       <h1>Andrew Walsh</h1>
+        </header>
+        <!-- ABOUT SECTION-->
+       <div id="aboutsection">
+           <figure>
+           <a href="https://www.researchgate.net/profile/Andrew-Walsh-15" target="_blank"> <img src="me.png", width="200", height="200", alt="Andrew smiling into the camera"/></a>
+           </figure>
+           <h2 id="about" class="heading uppercase">About</h2>
+       <p>I am the <em>Academic Chair of Graduate Research Teaching and Education</em> for GRS at <strong>Murdoch University</strong>. I develop and deliver statistic coding courses in R and SPSS for Higher Degree Research (HDR) students. My research focuses on decision making in health and sports science using technology such as motion and eye tracking.</p>
+       <br>
+       <br>
+       <!--SKILLS SECTION-->
+       <h3 id="skills">Skills</h3>
+       <h4>Research Skills</h4>
+       <ul class="list">
+           <li>Perception-Action Coupling</li>   
+           <li>Decision Making</li> 
+           <li>Sport Science</li>
+       </ul>
+       <!--SKILLS SECTION-->
+       <h4>Technical Skills</h4>
+       <ul class="list">
+           <li>Coding</li>
+           <li>Transcription</li>
+           <li>Skills Analysis</li>
+       </ul>
+       <!--INTERPERSONAL SKILLS SECTION-->
+       <h4>Interpersonal Skills</h4>
+       <ul class="list">
+           <li>Hard worker</li>
+           <li>Verbal Communication</li>
+       </ul>
+       </div>
+       <!--ACCOMPLISHMENTS SECTION-->
+       <div id="accomplishmentssection">
+       <h2 id="accomplishments">Accomplishments</h1>
+        <table>
+            <tr>
+                <th scope="col">Publications</th>
+                
+                <th scope="col">Awards</th>
+               
+                <th scope="col">Presentations</th>
+                <tr>
+                    <td>The potential for vitrual reality in preparing exercise physiology students for Graded Exercise Stress Tests</td>
+                    <td>Australian Postgraduate Award</td>
+                    <td>National Strength and Conditioning Association, Las Vegas</td>
+                </tr>
+
+                <tr>
+                    <td>Lack of corticol or 1a-afferent spinal pathway involvement in muscle force loss after passive static stretching</td>
+                    <td></td>
+                    <td>European College for Sport Sciences, Amsterdam</td>
+                </tr>
+
+                <tr>
+                    <td>Investigating the extent of realistic moulage impacts on immersion and performance amongst undergraduate paramedic students in simulation-based traumatic scenarios: A pilot study</td>
+                    <td></td>
+                    <td>Australasian Skill Acquisition Network, Perth</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Australasian Skill Acquisition Network, Singapore</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Australasian Skill Acquisition Network, Queensland</td>
+                </tr>
+            </tr>
+        </table>
+       </div>
+       <h3>Coding Examples</h3>
+       <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+       <!--CONTACT SECTION-->
+       <div id="contactsection">
+       <h2 id="contact" class="contactform">Contact</h2>
+       <a href="https://au.linkedin.com/in/andrew-walsh-phd-732410104" target="_blank"> LinkedIn.</a>
+       <form>
+           <label for="name">*Name</label>
+           <br>
+           <input type="text" name="name" id="name" required>
+           <br>
+           <br>
+           <label for="email">*Email</label>
+           <br>
+           <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+           <br>
+           <br>
+           <label for="mobile">Mobile(Optional):</label>
+           <br>
+           <input type="tel" name="mobile" id="mobile" pattern="[0-9] {10,16}">
+           <br>
+           <br>
+           <label for="message">*Leave you message below</label>
+           <br>
+           <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+           <br>
+           <br>
+           <input type="Submit">
+       </form>
+       </div>
+       <script src="./nav.js"></script>
+    </body>
+    </main>
+</html>
